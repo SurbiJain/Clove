@@ -1,0 +1,334 @@
+@media only screen and (max-width: 600px) {
+    .page {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .header-wrapper {
+        height: auto;
+        gap: 10px;
+        font-size: 14px;
+        align-items: flex-start;
+    }
+
+    .logo {
+        padding: 0 10px;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 5px 20px;
+    }
+
+    .header-actions button {
+        height: auto;
+    }
+
+    .header-actions {
+        align-self: center;
+    }
+
+    .header-actions .btn-primary {
+        margin-right: 10px !important;
+    }
+
+    button img {
+        display: none;
+    }
+
+    .mainSwiper .swiper-slide {
+        height: 300px !important;
+    }
+
+    .slide-content {
+        padding: 0 15px;
+    }
+
+    .slide-content h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .slide-content h3 {
+        font-size: 22px;
+        line-height: normal;
+
+    }
+
+    .slide-content .btn-primary {
+        margin-top: 20px;
+        width: max-content;
+    }
+
+    .swiper-slide.first .page {
+        background-size: 42%;
+    }
+
+    .locate-wrapper {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .locate-wrapper {
+        padding: 0;
+    }
+
+    .locate-wrapper .left h3 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .locate-wrapper .left p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .w-50 {
+        width: 100%;
+    }
+
+    .google-and-locate {
+        flex-direction: column;
+
+    }
+
+    .google-rating {
+        border-bottom: #fadabe 2px solid;
+        border-right: 0;
+        padding-bottom: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .google-rating .g-stats h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .google-rating .g-stats h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .google-rating .g-stats svg {
+        height: 20px;
+    }
+
+    .google-rating .g-logo img {
+        height: 80px;
+    }
+
+    .locate-clinic {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 30px 0 0 0;
+    }
+
+    .locate-clinic button {
+        height: 51px;
+        font-size: 18px;
+        line-height: 11px;
+        margin-right: 0 !important;
+    }
+
+    .treatments {
+        padding: 10px;
+    }
+
+    .treatments .page {
+        padding: 10px;
+        padding-bottom: 20px !important;
+    }
+
+    .treatments h2,
+    .success h2 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .treatments ul {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin: 30px 15px;
+        row-gap: 25px;
+        column-gap: 24px;
+    }
+
+    .treatment-list li,
+    .success li {
+        height: 125px;
+        width: auto;
+        padding: 22px 18px 20px 18px;
+    }
+
+    .treatment-list li img {
+        height: 40px;
+    }
+
+    .treatment-list li h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .features .page {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .page .consultation {
+        padding: 40px 20px;
+        margin-bottom: 30px;
+    }
+
+    .consultation h2 {
+        line-height: 30px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .page .details {
+        min-width: auto;
+        row-gap: 10px;
+    }
+
+    .safety-protocols h2 {
+        font-size: 20px;
+    }
+
+    .details .safety-protocols {
+        background-size: 54%;
+        padding: 45px 0 18px 20px;
+    }
+
+    .safety-protocols-top {
+        margin-bottom: 110px;
+    }
+
+    .safety-protocols h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .safety-protocols p {
+        font-size: 16px;
+    }
+
+    .explore-more {
+        font-size: 12px !important;
+        line-height: 22px;
+    }
+
+    .details .geo-location {
+        display: flex;
+        column-gap: 10px;
+        min-height: auto;
+    }
+
+    .nearby h2,
+    .doctor-contact h2 {
+        font-size: 14px;
+    }
+
+    .nearby,
+    .doctor-contact {
+        padding: 10px;
+    }
+
+    .nearby img,
+    .doctor-contact img {
+        width: 55px;
+        height: 100px;
+    }
+
+    .nearby h3,
+    .doctor-contact h3 {
+        font-size: 14px;
+        font-weight: normal;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .text-icon img {
+        height: 50px;
+    }
+
+    .success .page {
+        padding: 30px 0;
+    }
+
+    .success ul {
+        column-gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .treatment-list li,
+    .success li {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px;
+    }
+
+    .success li {
+        width: 43%;
+        box-sizing: border-box;
+    }
+
+    .success li img {
+        height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .success h3 {
+        margin-bottom: 30px;
+    }
+
+    .success h2 {
+        margin-bottom: 0;
+    }
+
+    .faq .page {
+        padding: 30px;
+    }
+
+    .faq-list {
+        display: block;
+    }
+
+    .faq h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .faq .grid-item {
+        padding: 12px 0;
+        font-size: 16px;
+    }
+
+    footer {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1690px) {
+    .page {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}

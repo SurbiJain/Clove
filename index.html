@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Clove Dental</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <link href="css/reset.css" type="text/css" rel="stylesheet" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+  <link href="css/media.css" type="text/css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="page">
+        <div class="header-wrapper d-flex space-between align-items-center">
+          <div class="logo">
+            <img src="assets/logo.svg" height="80" />
+          </div>
+          <div class="nav d-flex">
+            <div onclick="treatmentDropDown()" class="nav-item treatmentbtn">Treatments <img src="assets/down-caret.svg"></div>
+            <div class="nav-divider">|</div>
+            <div class="nav-item has-dropdown">Dental Plans</div>
+            <div class="nav-divider">|</div>
+            <div class="nav-item">Our Doctors</div>
+            <div class="nav-divider">|</div>
+            <div class="nav-item">Careers</div>
+            <div class="nav-divider">|</div>
+            <div class="nav-item">Find a Clinic</div>
+          </div>
+          <div id="treatmentDropdown" class="dropdown-treatment">
+            <!-- <div class="treatment-list-dropdown">
+              <div>Advance Gum Treatments</div>
+              <div>Clear Aligners</div>
+              <div>Dentures</div>
+              <div>Preventive dentistry</div>
+              <div>Teeth whitening</div>
+              <div>Bridges and Crowns</div>
+              <div>Dental fillings</div>
+              <div>Mouth Ulcers</div>
+              <div>Root Canal Treatments</div>
+              <div>Wisdom teeth removal</div>
+              <div>Braces and Aligners</div>
+              <div>Dental Implants</div>
+              <div>Kids Dentistery</div>
+              <div>Smile makover</div>
+            </div>
+              <button class="btn-primary mr-30">
+                Need help? Call Clove Dental
+              </button> -->
+            
+          </div>
+           
+          
+          <div class="header-actions">
+            <div class="d-flex align-items-center">
+              <button class="btn-primary mr-30">
+                <img class="mr-10" src="assets/book.svg" /> Book Appointment
+              </button>
+              <div>
+                <button
+                  onclick="contactDropDown()"
+                  class="btn-secondary contactbtn"
+                >
+                  <img class="mr-10" src="assets/call.svg" /> Help ?
+                </button>
+                <div id="contactDropdown" class="dropdown-content-contact">
+                  <div class="dropdown-content-scroll">
+                    <a href="#" class="d-flex">
+                      <div class="d-flex">
+                        <div> North India</div>
+                        <div>+91123456789</div>
+                      </div>
+                      <div class="call-icon"><img  src="./assets/phone.svg" /></div>
+                    </a>
+                    <a href="#" class="d-flex">
+                      <div class="d-flex">
+                        <div> South India</div>
+                        <div>+91123456789</div>
+                      </div>
+                      <div class="call-icon"><img  src="./assets/phone.svg" /></div>
+                     
+                    </a>
+                    <a href="#" class="d-flex">
+                      <div class="d-flex">
+                        <div> Mail Us</div>
+                        <div>Care@clovedental.in</div>
+                      </div>
+                      <div class="message-icon"> <img  src="./assets/message-icon.svg" /> </div>
+                      
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="slider">
+      <div class="swiper mainSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide first">
+            <div class="background">
+              <div class="page">
+                <div class="slide-content">
+                  <h2>Advance Dental Health Plan</h2>
+                  <h3>Dental care worth ₹8,000/-</h3>
+                  <h3><strong>only at ₹550/-</strong></h3>
+
+                  <button class="btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide second">
+            <div class="background">
+              <div class="page">
+                <div class="slide-content">
+                  <h2>
+                    Your Smile, <br />Our Prority, at
+                    <span class="text-orange">Clove Dental</span>
+                  </h2>
+                  <h3>Explore wide range of dentistry solutions</h3>
+
+                  <button class="btn-primary">Book Appointment</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="locate">
+      <div class="page">
+        <div class="locate-wrapper d-flex">
+          <div class="left w-50">
+            <div class="swiper locateSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <h3>
+                    <span class="text-orange">450+</span> World Class Clinics
+                  </h3>
+                  <p>Manned by 1200+ Super Specialists</p>
+                </div>
+                <div class="swiper-slide">
+                  <h3>
+                    <span class="text-orange">Gold</span> Standard Treatments
+                  </h3>
+                  <p>Only Asian members of the Royal Society member of UK</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-50">
+            <div class="google-and-locate d-flex justify-content-end">
+              <div class="google-rating d-flex">
+                <div class="g-logo">
+                  <img src="assets/google.svg" height="99" />
+                </div>
+                <div class="g-stats">
+                  <h5>
+                    <svg width="37" height="33" viewBox="0 0 37 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M18.5 -0.149902L22.6535 12.6333H36.0945L25.2205 20.5337L29.374 33.3169L18.5 25.4165L7.62597 33.3169L11.7795 20.5337L0.905455 12.6333H14.3465L18.5 -0.149902Z"
+                        fill="#FFB217" />
+                    </svg>
+  
+                      4.9/5
+                    </h5>
+  
+                    <div class="swiper ratingSwiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <h4 class="text-orange">1.5 Lakh+</h4>
+                          <p>5 Star Ratings</p>
+                        </div>
+                        <div class="swiper-slide">
+                          <h4 class="text-orange">1.7 Lakh+</h4>
+                          <p>Verified Smiles on Google</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="locate-clinic">
+                  <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">
+                      Select your City
+                      <img src="assets/down-caret.svg">
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <div class="dropdown-content-scroll">
+                        <a href="#">Ahemdabad</a>
+                        <a href="#">Amritsar</a>
+                        <a href="#">Bengaluru</a>
+                        <a href="#">Chandigarh</a>
+                        <a href="#">Chennai</a>
+                        <a href="#">Delhi</a>
+                        <a href="#">Ahemdabad</a>
+                        <a href="#">Amritsar</a>
+                        <a href="#">Bengaluru</a>
+                        <a href="#">Chandigarh</a>
+                        <a href="#">Chennai</a>
+                        <a href="#">Delhi</a>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <button class="btn-primary mr-30">
+                    Locate nearest Clove clinic
+                  </button>
+                </div>
+              </div>
+            </div>
+
+
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="treatments">
+      <div class="page">
+        <h2>
+          All dental issues from simple cleaning <br />
+          to full mouth rehabilitation under one roof
+        </h2>
+        <ul class="treatment-list">
+          <li>
+            <img src="./assets/teeths/teeth1.svg" />
+            <h3>Root Canal Treatment</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth2.svg" />
+            <h3>Braces</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth3.svg" />
+            <h3>Teeth Whitening</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth4.svg" />
+            <h3>Invisible Braces</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth5.svg" />
+            <h3>Dental Implants</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth6.svg" />
+            <h3>Smile Makeover</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth7.svg" />
+            <h3>Kids Dentistry</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth8.svg" />
+            <h3>Gum Treatment</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth9.svg" />
+            <h3>Wisdom Tooth</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth10.svg" />
+            <h3>Laser/Painless Dentistry</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth11.svg" />
+            <h3>Crown and Bridges</h3>
+          </li>
+          <li>
+            <img src="./assets/teeths/teeth12.svg" />
+            <h3>Dentures</h3>
+          </li>
+        </ul>
+
+        <p class="text-center explore-more">
+          <img
+            src="./assets/explore-search-icon.svg"
+            class="prefix-icon"
+          /><span class="underline">Explore Treatments</span
+          ><span class="arrow text-orange">&#8594;</span>
+        </p>
+      </div>
+    </div>
+    <div class="features">
+      <div class="page d-flex">
+        <div class="consultation">
+          <h2>
+            Expert Guidance for <br />
+            Healthy Smiles
+          </h2>
+        </div>
+        <div class="details">
+          <div class="safety-protocols">
+            <div class="safety-protocols-top">
+              <h2>10x Safety Protocols</h2>
+              <h3>Monitored by <strong>DORI</strong></h3>
+              <p>(Artificial Intelligence System)</p>
+            </div>
+            <p class="explore-more">
+              <span class="underline">Learn more</span
+              ><span class="arrow">&#8594;</span>
+            </p>
+          </div>
+          <div class="geo-location">
+            <div class="nearby">
+              <div>
+                <h2>450+ Neighbourhood</h2>
+                <h3>Clinics Pan India</h3>
+              </div>
+              <img src="./assets/neighbour.svg" />
+              <p class="explore-more">
+                <span class="underline">Locate Clinic near you</span
+                ><span class="arrow text-orange">&#8594;</span>
+              </p>
+            </div>
+
+            <div class="doctor-contact">
+              <div>
+                <h2>1200+ Expert Doctors</h2>
+                <h3>Covering All Specialities</h3>
+              </div>
+              <img src="./assets/expert-doc.svg" />
+              <p class="explore-more">
+                <span class="underline">Explore Dentists Nearby</span
+                ><span class="arrow text-orange">&#8594;</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee">
+      <marquee width="100%" direction="left" height="100px">
+        <div class="d-flex">
+          <div class="marquee-block d-flex">
+            <div class="marquee-icon">
+              <img src="assets/marquee/marquee1.svg" />
+            </div>
+            <div class="marquee-text">
+              <span class="text-d-orange">20 L+</span> Happy Patients
+            </div>
+          </div>
+
+          <div class="marquee-block d-flex">
+            <div class="marquee-icon">
+              <img src="assets/marquee/marquee2.svg" />
+            </div>
+            <div class="marquee-text">
+              <span class="text-d-orange">1200+</span> Dentists
+            </div>
+          </div>
+        </div>
+      </marquee>
+    </div>
+    <section class="success">
+      <div class="page d-flex space-between align-items-center">
+        <h2>Beyond Dentistry</h2>
+        <h3>Mapping success in every area</h3>
+        <ul>
+          <li>
+            <img src="./assets/success-icon-hat.svg" />
+            <div>Educational videos</div>
+          </li>
+          <li>
+            <img src="./assets/success-icon-news.svg" />
+            <div>News and Media</div>
+          </li>
+          <li>
+            <img src="./assets/success-icon-trophy.svg" />
+            <div>Rewards</div>
+          </li>
+          <li>
+            <img src="./assets/success-icon-careers.svg" />
+            <div>Careers</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="page">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <p class="grid-item">
+            <span>Can i choose the dentist on my own for treatment ?</span
+            ><span class="text-orange">&#43;</span>
+          </p>
+          <p class="grid-item">
+            <span>Can i choose the dentist on my own for treatment ?</span
+            ><span class="text-orange">&#43;</span>
+          </p>
+          <p class="grid-item">
+            <span>Can i choose the dentist on my own for treatment ?</span
+            ><span class="text-orange">&#43;</span>
+          </p>
+          <p class="grid-item">
+            <span>Can i choose the dentist on my own for treatment ?</span
+            ><span class="text-orange">&#43;</span>
+          </p>
+          <p class="grid-item">
+            <span>Can i choose the dentist on my own for treatment ?</span
+            ><span class="text-orange">&#43;</span>
+          </p>
+          <p class="grid-item">
+            <span>Can i choose the dentist on my own for treatment ?</span
+            ><span class="text-orange">&#43;</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer d-flex space-between align-items-center">
+      <table>
+        <thead>
+          <tr>
+            <th>Treatments</th>
+            <th>Quick Links</th>
+            <th>Explore Clove</th>
+            <th>Legal</th>
+            <th>Connect with Us</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Laser Dentistry</td>
+            <td>Home</td>
+            <td>Testimonials</td>
+            <td>Privacy</td>
+            <td>X</td>
+          </tr>
+          <tr>
+            <td>Dental fillings</td>
+            <td>About US</td>
+            <td>Blogs</td>
+            <td>Accessibility</td>
+          </tr>
+          <tr>
+            <td>Root Canal Treatments</td>
+            <td>Locations</td>
+            <td>Overview</td>
+            <td>Terms of services</td>
+          </tr>
+          <tr>
+            <td>Wisdom Tooth removal</td>
+            <td>Book Appointment</td>
+            <td>Clinic</td>
+            <td>Privacy</td>
+          </tr>
+        </tbody>
+      </table>
+      <img class="footer-logo" src="./assets/logo2.svg" />
+      <p class="footer-disclaimer">
+        All Rights Reserved - 2024, Clove Dental (a brand name of M/s. Star
+        Dental Centre Private Limited)
+      </p>
+    </footer>
+    <div class="text-icon">
+      <img src="./assets/text-end-icon.svg" />
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
